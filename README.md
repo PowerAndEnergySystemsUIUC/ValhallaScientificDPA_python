@@ -6,7 +6,7 @@ The purpose of this library is to provide an easy method for retreiving voltage 
 ###Using the Library###
 
 ####Initialization####
-Like any other Python library, you must first import the ValhallaScientificDPA library as follows (note that [pyserial](http://pyserial.sourceforge.net/) must be installed on your computer.
+Like any other Python library, you must first import the ValhallaScientificDPA library as follows (note that [pyserial](http://pyserial.sourceforge.net/) must be installed on your computer).
 ````python
 import ValhallaScientificDPA
 ````
