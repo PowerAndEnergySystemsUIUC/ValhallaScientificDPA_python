@@ -5,8 +5,8 @@ import itertools
 import time
 import _winreg as winreg
 
-class vsSerial(serial.Serial):
-	def __init__(self, port = None, baud = None, l = None):
+class VSDPA(serial.Serial):
+	def __init__(self, port = None, baud = 9600, l = None):
 		self.__l = l
 		if(port == None):
 			port = self.promptForPort()
