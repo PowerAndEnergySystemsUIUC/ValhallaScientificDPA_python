@@ -4,6 +4,7 @@
 The purpose of this library is to provide an easy method for retreiving voltage and power information from the Valhalla Scientific Digital Power Analyzers used in electrical engineering laboratories at the University of Illinois at Urbana-Champaign (UIUC).  The code has been tested to work with the 2100 and 2111 model power analyzers.  It should be noted the aforementioned meters did not come a serial port originally, rather they were retrofitted with custom hardware; thus, this software is only verified to work with the meters at the UIUC and will likely be unusable by anyone else.  The purpose of providing the code here is to make it accessible to everyone, particularly those who are from UIUC and wish to utilize the serial functionality of the meters.
 
 ###Using the Library###
+The ValhallaScientificDPA_python library uses an object-oriented programming paradigm.  If you are not familiar with objects in Python, it may be helpful to review the [Classes module](http://docs.python.org/tutorial/classes.html) in the Python tutorial before proceeding.
 
 ####Initialization####
 Like any other Python library, you must first import the ValhallaScientificDPA library as follows (note that [pyserial](http://pyserial.sourceforge.net/) must be installed on your computer).
